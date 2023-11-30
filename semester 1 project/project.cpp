@@ -133,7 +133,5 @@ int main(){
             std::cout<<"Invalid choice. Please try again." << std::endl;
         }       
     }
-for(Accounts* temp:ob.accounts){
- delete temp;
-}
+    return 0;
 }
